@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial":
-          "radial-gradient(ellipse farthest-side at center, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 255, 1) 100%)",
+        "doubleCtablet":
+          "radial-gradient(circle at 5% 130%, #4e4ed8 2%, transparent 35%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 35%)",
+        "doubleCmobile":
+          "radial-gradient(circle at 5% 130%, #4e4ed8 2%, transparent 50%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 50%)",
       },
       colors: {
         "MainBg-dark": "#111111",
