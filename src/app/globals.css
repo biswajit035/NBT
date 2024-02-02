@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  width: 100vw;
+}
+
+@layer components {
+  .btnGrid {
+    @apply flex flex-col items-center rounded-lg border border-[#575252] bg-gridBg px-5 py-2 cursor-pointer hover:bg-white;
+  }
+  .btnGridBlue {
+    @apply ;
+  }
+  .hm {
+    @apply hidden md:block;
+  }
+}
