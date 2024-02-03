@@ -12,7 +12,7 @@ const config: Config = {
         "doubleCtablet":
           "radial-gradient(circle at 5% 130%, #4e4ed8 2%, transparent 35%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 35%)",
         "doubleCmobile":
-          "radial-gradient(circle at 5% 130%, #4e4ed8 2%, transparent 50%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 50%)",
+          "radial-gradient(circle at 8% 110%, #4e4ed8 2%, transparent 50%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 50%)",
       },
       colors: {
         "MainBg-dark": "#111111",

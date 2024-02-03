@@ -11,9 +11,10 @@ import Testimonial from "@/pages/Testimonial";
 
 export default function Home() {
   return (
-    <main className="px-2 md:px-10 lg:px-20">
+    <main>
         <Navbar/>
-        {/* <Hero/>
+         <Hero/>
+        {/*
         <CompanySlider/>
         <About/>
         <Services/>
