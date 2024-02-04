@@ -15,8 +15,8 @@ export default function Home() {
         <Navbar/>
          <Hero/>
         <CompanySlider/>
-        {/*
         <About/>
+        {/*
         <Services/>
         <Advantages/>
         <Testimonial/>
