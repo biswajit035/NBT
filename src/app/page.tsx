@@ -16,8 +16,8 @@ export default function Home() {
          <Hero/>
         <CompanySlider/>
         <About/>
-        {/*
         <Services/>
+        {/*
         <Advantages/>
         <Testimonial/>
         <Faq/>
