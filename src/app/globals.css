@@ -26,3 +26,34 @@ body{
     @apply hidden md:block;
   }
 }
+
+
+
+/* testimonial slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination span{
+  background: white !important;
+}
