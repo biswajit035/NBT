@@ -57,3 +57,16 @@ body{
 .swiper-pagination span{
   background: white !important;
 }
+
+/* Accordian */
+.faqtoogle{
+  background: #1f1f1f !important;
+}
+.faqtoogle h2 button div span{
+  color: white;
+}
+.faqtoogle section{
+  color: gray;
+}
+/* 
+*/
