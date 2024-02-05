@@ -1,17 +1,19 @@
 import type { Config } from "tailwindcss";
+const { nextui } = require("@nextui-org/react");
 
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        "doubleCtablet":
+        doubleCtablet:
           "radial-gradient(circle at 5% 130%, #4e4ed8 2%, transparent 35%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 35%)",
-        "doubleCmobile":
+        doubleCmobile:
           "radial-gradient(circle at 8% 110%, #4e4ed8 2%, transparent 50%), radial-gradient(circle at 90% 0%, #4e4ed8 2%, transparent 50%)",
       },
       colors: {
@@ -24,6 +26,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 };
 export default config;
