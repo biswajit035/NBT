@@ -20,9 +20,10 @@ export default function Home() {
         <Testimonial/>
         <Faq/>
         <Team/>
+        <Footer/>
         {/*
         <Advantages/>
-        <Footer/> */}
+         */}
     </main>
   );
 }

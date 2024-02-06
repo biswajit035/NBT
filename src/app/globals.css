@@ -68,5 +68,17 @@ body{
 .faqtoogle section{
   color: gray;
 }
-/* 
-*/
+
+/* divider */
+/* .custom-shape-divider-top-1707200860 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
+
+.custom-shape-divider-top-1707201671 .shape-fill {
+    fill: #1f1f1f;
+}
