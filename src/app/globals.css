@@ -16,6 +16,15 @@ body{
 } 
 
 @layer components {
+  .heading{
+    @apply mb-8 w-fit rounded-lg bg-[#1f1f1f] px-10 py-1 text-xl;
+  }
+  .stdP{
+    @apply px-3 md:px-10 lg:px-20;
+  }
+  .stdPy{
+    @apply py-7 ;
+  }
   .btnGrid {
     @apply flex flex-col items-center rounded-lg border border-[#575252] bg-gridBg px-5 py-2 cursor-pointer hover:bg-white;
   }

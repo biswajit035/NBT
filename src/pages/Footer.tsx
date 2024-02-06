@@ -26,11 +26,11 @@ const Footer = () => {
     // <div className="rounded-t-lg bg-grey-dark">
     //   Footer
     // </div>
-    <nav className="custom-shape-divider-top-1707201671 ]">
+    <nav className="custom-shape-divider-top-1707201671 stdPy pb-0">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
       </svg>
-      <div className='flex flex-col bg-[#1f1f1f] px-2 pb-3 md:px-10 lg:px-20'>
+      <div className='stdPy flex flex-col bg-[#1f1f1f] px-2 pt-0 md:px-10 lg:px-20'>
         <div className='grid grid-cols-2 md:grid-cols-3'>
           <div className='flex flex-col gap-1'>
             <h1 className='pb-6 font-bold'>Provided Srvices</h1>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='flex items-center justify-center'>	&#169; 2024 nbtservices.in</div>
+        <div className='flex justify-center pt-5'>	&#169; 2024 nbtservices.in</div>
       </div>
     </nav>
   )
