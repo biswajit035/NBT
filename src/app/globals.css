@@ -3,10 +3,28 @@
 @tailwind utilities;
 
 body{
-  width: 100vw;
+  max-width: 100vw;
 }
 
+@layer utilities {
+
+    /* Hide scrollbar for IE, Edge, and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+} 
+
 @layer components {
+  .heading{
+    @apply mb-8 w-fit rounded-lg bg-[#1f1f1f] px-10 py-1 text-xl;
+  }
+  .stdP{
+    @apply px-3 md:px-10 lg:px-20;
+  }
+  .stdPy{
+    @apply py-7 ;
+  }
   .btnGrid {
     @apply flex flex-col items-center rounded-lg border border-[#575252] bg-gridBg px-5 py-2 cursor-pointer hover:bg-white;
   }
@@ -16,4 +34,60 @@ body{
   .hm {
     @apply hidden md:block;
   }
+}
+
+
+
+/* testimonial slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination span{
+  background: white !important;
+}
+
+/* Accordian */
+.faqtoogle{
+  background: #1f1f1f !important;
+}
+.faqtoogle h2 button div span{
+  color: white;
+}
+.faqtoogle section{
+  color: gray;
+}
+
+/* divider */
+/* .custom-shape-divider-top-1707200860 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
+
+.custom-shape-divider-top-1707201671 .shape-fill {
+    fill: #1f1f1f;
 }
