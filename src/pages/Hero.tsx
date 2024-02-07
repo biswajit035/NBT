@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='relative flex w-full items-center justify-center overflow-x-hidden py-8'>
+    <div className='relative flex w-full items-center justify-center overflow-x-hidden stdPy' id='home'>
       <div className="circle flex w-fit items-center justify-center">
         <div className='hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[45vw] lg:w-[32vw]'></div>
         <div className='aspect-square w-[115vw] rounded-full border border-[#2b2b2b] bg-[#000000] bg-doubleCmobile md:w-[60vw] lg:w-[40vw]'></div>
