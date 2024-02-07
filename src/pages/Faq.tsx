@@ -28,9 +28,9 @@ const Faq = () => {
   ]
 
   return (
-    <div className='z-[3] h-fit w-full overflow-x-hidden px-2 py-5 md:px-10 lg:px-20'>
+    <div className='stdPy z-[3] h-fit w-full overflow-x-hidden px-2 md:px-10 md:pt-20 lg:px-20'>
 
-      <div className='mb-10 w-fit rounded-lg bg-[#1f1f1f] px-10 py-1 text-xl'>FAQ</div>
+      <div className='heading'>FAQ</div>
       <h1 className='mb-8 text-3xl md:text-5xl lg:text-6xl'>Questions you may be interested in</h1>
       {/* <p className='text-gray-300 lg:w-3/4'>We provide cutting-edge Framer templates designed specifically for startups and small-medium sized businesses. Our templates are built to enhance user experience and drive conversions.</p> */}
       <NextUIProvider>
