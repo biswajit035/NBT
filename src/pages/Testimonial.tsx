@@ -35,12 +35,12 @@ const Testimonial = () => {
     },
   ]
   return (
-    <div className='relative z-[3] my-12 h-fit w-full overflow-x-hidden'>
-      <div className='absolute -left-5 hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[45vw] lg:w-[20vw]'></div>
-      <div className="content relative z-[2] px-2 py-10 md:w-full md:px-10 lg:w-10/12 lg:px-20">
-        <div className='mb-10 w-fit rounded-lg bg-[#1f1f1f] px-10 py-1 text-xl'>Testimonials</div>
+    <div className='stdPy relative z-[3] h-fit w-full overflow-x-hidden md:pt-20'>
+      <div className='absolute -right-12 hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[45vw] lg:-right-20 lg:top-10 lg:w-[20vw]'></div>
+      <div className="content relative z-[2] px-2 md:w-full md:px-10 lg:w-10/12 lg:px-20">
+        <div className='heading'>Testimonials</div>
         <h1 className='mb-8 text-3xl md:text-5xl lg:w-10/12 lg:text-6xl'>See what our users tell about us</h1>
-        <p className='text-gray-300 lg:w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque esse sunt? Eum ut id qui quasi excepturi delectus non.</p>
+        <p className='mb-5 text-gray-300 lg:w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque esse sunt? Eum ut id qui quasi excepturi delectus non.</p>
       </div>
 
       <div className='mx-2 h-fit text-black md:mx-10 lg:mx-20'>
