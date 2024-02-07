@@ -53,7 +53,7 @@ const CompanySlider = () => {
     },
   ]
   return (
-    <div className='no-scrollbar flex h-28 gap-8 overflow-x-scroll px-2 py-8 md:mx-10 lg:mx-20'>
+    <div className='no-scrollbar stdPy flex h-28 gap-8 overflow-x-scroll px-2 md:mx-10 lg:mx-20'>
       {
         clientData.map((item,idx)=>{
           return <Card key={idx} name={item?.Name} img={item.img}/>
