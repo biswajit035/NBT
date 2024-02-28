@@ -5,24 +5,12 @@ const About = () => {
     <div className='stdPy relative z-[3] h-fit w-full overflow-x-hidden md:pt-20' id='about'>
       <div className='absolute -right-16 hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[35vw] lg:top-10 lg:w-[20vw]'></div>
       <div className="content relative z-[2] px-2 md:w-full md:px-10 lg:w-10/12 lg:px-20">
-        <div className='heading'>About Us</div>
-        <h1 className='mb-5 text-3xl md:text-5xl lg:text-6xl'>We&apos;ve been creating unique and powerful websites for <span className="text-blue">5 years</span></h1>
-        <p className='text-gray-300 lg:w-3/4'>We provide cutting-edge Framer templates designed specifically for startups and small-medium sized businesses. Our templates are built to enhance user experience and drive conversions.</p>
+        <div className='heading'>About Next Big Thing</div>
+        <h1 className='mb-5 text-3xl md:text-5xl lg:text-4xl'>Our purpose is to empower our clients with top-notch solutions, for <span className="text-blue">business growth</span> and <span className="text-blue">online impact.</span></h1>
+        <p className='text-gray-300 lg:w-3/4'>We are driven by a passion for innovation and a commitment to excellence. Founded with the vision of empowering businesses and creators to reach their full potential, we specialize in converting ideas into impactful realities.</p>
+        <p className='mt-2 text-gray-300 lg:w-3/4'>We prioritize honesty, integrity, and innovation in everything we do. Our team of experts is committed to delivering exceptional results that exceed expectations and drive meaningful outcomes for our clients.</p>
       </div>
-      <div className='relative z-[2] mx-2 my-5 grid grid-cols-1 gap-5 md:mx-10 md:grid-cols-3 md:gap-12 lg:mx-20'>
-        <div className='flex cursor-pointer flex-col items-center justify-center rounded-xl border border-[#2b2b2b] bg-[#1f1f1f] py-5 hover:scale-[1.02]'>
-          <span className='text-4xl lg:text-6xl'>+100</span>
-          <span className='text-gray-400'>Clients</span>
-        </div>
-        <div className='flex cursor-pointer flex-col items-center justify-center rounded-xl border border-[#2b2b2b] bg-[#1f1f1f] py-5 hover:scale-[1.02]'>
-          <span className='text-4xl lg:text-6xl'>+5</span>
-          <span className='text-gray-400'>New Templates</span>
-        </div>
-        <div className='flex cursor-pointer flex-col items-center justify-center rounded-xl border border-[#2b2b2b] bg-[#1f1f1f] py-5 hover:scale-[1.02]'>
-          <span className='text-4xl lg:text-6xl'>+38</span>
-          <span className='text-gray-400'>New Projects</span>
-        </div>
-      </div>
+     
     </div>
   )
 }
