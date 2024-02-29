@@ -1,6 +1,28 @@
 import React from 'react'
 
 const Services = () => {
+  const data = [
+    {
+      title: "Expertise",
+      content:
+        "Our team comprises seasoned professionals with diverse backgrounds and expertise in web development, design, and content creation.",
+    },
+    {
+      title: "Client-Centric Approach",
+      content:
+        "We prioritize your goals and objectives, tailoring our solutions to meet your specific needs and aspirations.",
+    },
+    {
+      title: "Innovation",
+      content:
+        " We stay ahead of industry trends and embrace emerging technologies to deliver cutting-edge solutions that drive results.",
+    },
+    {
+      title: "Collaboration",
+      content:
+        " We believe in the power of collaboration and transparency, working closely with you every step of the way to ensure your vision is brought to life.",
+    },
+  ];
   const services =
     [
       {
@@ -60,11 +82,10 @@ const Services = () => {
         <h1 className='mb-5 text-3xl md:text-5xl lg:text-6xl'>Who we are and what we offer</h1>
         <p className='text-gray-300 lg:w-3/4'>We’re a team focused on making your startup journey easier. Our services are designed to help you create an impressive MVP quickly and efficiently. Here’s what we offer</p>
       </div>
-      <div className='relative z-[2] flex flex-col gap-3 px-2 md:px-10 lg:px-20'>
+      {/* <div className='relative z-[2] flex flex-col gap-3 px-2 md:px-10 lg:px-20'>
         {
           services.map((item, idx) => (
             <div className='flex flex-col border-b border-white py-4' key={idx}>
-              {/* <span className='text-5xl'>{idx < 10 ? `0${idx + 1}` : idx + 1}</span> */}
               <span className='text-2xl'>{item.title}</span>
               <div className="flex flex-col">
                 {
@@ -76,7 +97,29 @@ const Services = () => {
             </div>
           ))
         }
-
+      </div> */}
+      <div className="relative z-[2] mx-2 my-5 grid grid-cols-1 gap-5 md:mx-10 md:grid-cols-1 md:gap-12 lg:mx-20">
+        {
+          services.map((item, idx) => (
+            <div className="flex cursor-pointer flex-col gap-5 rounded-xl border border-[#2b2b2b] bg-[#1f1f1f] p-5 py-5 hover:scale-[1.02]" key={idx}>
+              <span className="justify-left flex items-center text-center text-2xl lg:text-3xl">
+                {item.title}
+              </span>
+              {
+                item.content.map((it, index) => (
+                  <div key={index} className='flex gap-5'>
+                    <span className="flex w-1/2 items-center text-base font-bold text-gray-400 md:text-lg lg:text-xl">
+                      {it.subTitle}
+                    </span>
+                    <span className="w-1/2 text-justify text-gray-400">
+                      {it.content}
+                    </span>
+                  </div>
+                ))
+              }
+            </div>
+          ))
+        }
       </div>
 
       <div className='flex justify-center gap-10 px-2 pt-14 md:px-10 lg:px-20'>

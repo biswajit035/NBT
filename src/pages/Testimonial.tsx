@@ -35,7 +35,7 @@ const Testimonial = () => {
     },
   ]
   return (
-    <div className='stdPy relative z-[3] h-fit w-full overflow-x-hidden md:pt-20'>
+    <div className='stdPy relative z-[3] h-fit w-full overflow-x-hidden md:pt-20' id='testimonial'>
       <div className='absolute -right-12 hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[45vw] lg:-right-20 lg:top-10 lg:w-[20vw]'></div>
       <div className="content relative z-[2] px-2 md:w-full md:px-10 lg:w-10/12 lg:px-20">
         <div className='heading'>Testimonials</div>

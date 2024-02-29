@@ -4,7 +4,7 @@ const Promise = () => {
   return (
     <div
       className="stdPy relative z-[3] h-fit min-h-[70vh] w-full overflow-x-hidden md:pt-20"
-      id="about"
+      id="promise"
     >
       <div className="absolute -right-16 hidden aspect-square rounded-full border border-[#2b2b2b] bg-gridBg hover:bg-[#1c1c1c] md:block md:w-[35vw] lg:top-10 lg:w-[20vw]"></div>
       <div className="content relative z-[2] px-2 md:w-full md:px-10 lg:w-10/12 lg:px-20">
