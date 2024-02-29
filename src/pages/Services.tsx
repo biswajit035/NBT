@@ -128,7 +128,7 @@ const Services = () => {
           Mail Us
         </a>
         <a
-          href="tel://9093879319"
+          href="tel://7439968060"
           className="hidden cursor-pointer flex-col items-center rounded-lg border border-blue bg-gridBg-blue px-5 py-2 hover:bg-[#2f2f95] hover:shadow-[inset_0px_0px_20px_2px_#4e4ed8] md:text-sm lg:flex"
         >
           Call us Now
