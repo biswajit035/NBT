@@ -28,7 +28,7 @@ const Faq = () => {
   ]
 
   return (
-    <div className='stdPy z-[3] h-fit w-full overflow-x-hidden px-2 md:px-10 md:pt-20 lg:px-20'>
+    <div className='stdPy z-[3] h-fit w-full overflow-x-hidden px-2 md:px-10 md:pt-20 lg:px-20' id='faq'>
 
       <div className='heading'>FAQ</div>
       <h1 className='mb-8 text-3xl md:text-5xl lg:text-6xl'>Questions you may be interested in</h1>
