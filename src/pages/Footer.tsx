@@ -7,19 +7,16 @@ import { FaFacebook,FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   const services=[
     {
-      "title":"Website Developemnet"
+      "title":"LANDING PAGE, E-COMMERCE SLOUTIONS"
     },
     {
-      "title":"UI/UX DESIGNER"
+      "title":"PERSONAL WEBSITES, UI/UX DESIGN"
     },
     {
-      "title":"E-COMMERCE SLOUTIONS"
+      "title":"REELS/SHORTS/VIDEO EDITING"
     },
     {
-      "title":"DIGITAL MARKETING"
-    },
-    {
-      "title":"SEO EXPERT"
+      "title":"DESIGN SERVICE"
     },
   ]
   return (

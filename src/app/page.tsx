@@ -17,7 +17,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <a href="https://wa.me/9093879319" className="fixed bottom-2 left-2 z-50 h-10 w-10">
+      <a href="https://wa.me/7439968060" className="fixed bottom-2 left-2 z-50 h-10 w-10">
         {/* hellow */}
         <Image src={"/whatsapp.png"} fill alt="whatsappIcon" className="absolute"/>
       </a>
@@ -30,7 +30,7 @@ export default function Home() {
       <Services />
 {/* GET IN TOUCH */}
       <Promise/>
-      <Testimonial />
+      {/* <Testimonial /> */}
       <About />
       <Faq />
       <LetsStart/>
