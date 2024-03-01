@@ -32,7 +32,7 @@ export default function Home() {
       <Promise/>
       {/* <Testimonial /> */}
       <About />
-      <Faq />
+      {/*<Faq />*/}
       <LetsStart/>
       <Footer />
 
